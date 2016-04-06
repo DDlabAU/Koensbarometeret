@@ -98,7 +98,4 @@ void beregn(int antal){
     int rand = int(random(randomgender.length));
     text (randomgender [rand], textX, textY); 
   }
-
-  rectMode(CENTER);
-  rect(width/2, height/2, 10, 10);
 }
