@@ -76,19 +76,19 @@ void beregn(int antal){
   println(antal);
   if(antal == 0){
     //kun mandetøj
-    text ("KØNSBAROMETRET VURDERING: \n\nDu er en ciskønnet mand: \nDu føler dig som det køn, du fik tildelt ved fødslen", textX, textY);
+    text ("KØNSBAROMETRETS VURDERING: \n\nDu er en ciskønnet mand: \nDu føler dig som det køn, du fik tildelt ved fødslen", textX, textY);
   } else if(antal == 1){
     //kun mandetøj på nær ét stk kvindetøj 
     background (255);
-    text ("KØNSBAROMETRET VURDERING: \n\nDu er en mand - \nder hviler i og anderkender dine feminine sider", textX, textY); 
+    text ("KØNSBAROMETRETS VURDERING: \n\nDu er en mand - \nder hviler i og anderkender dine feminine sider", textX, textY); 
     
   } else if(antal == 6){
     //kun kvindetøj på nær ét stk mandetøj
-    text ("KØNSBAROMETRET VURDERING: \n\nDu er en kvinde - \nder omhavner dine maskuline sider", textX, textY); 
+    text ("KØNSBAROMETRETS VURDERING: \n\nDu er en kvinde - \nder omhavner dine maskuline sider", textX, textY); 
     
   } else if(antal == 7){
     //kun kvindetøj 
-    text ("KØNSBAROMETRET VURDERING: \n\nDu er en ciskønnet kvinde: \nDu føler dig som det køn du fik tildelt ved fødslen", textX, textY);
+    text ("KØNSBAROMETRETS VURDERING: \n\nDu er en ciskønnet kvinde: \nDu føler dig som det køn du fik tildelt ved fødslen", textX, textY);
   
   }
   
